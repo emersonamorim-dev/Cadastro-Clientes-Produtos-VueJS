@@ -34,9 +34,9 @@
          <router-link to="/associacao" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2">Associar Produto</router-link>
          <router-link to="clientes/cadastro" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2">Cadastrar Cliente</router-link>
          <router-link to="/produtos/cadastro" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2">Cadastrar Produto</router-link>
-         <router-link to="/perfil" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
-         <router-link to="/configuracoes" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Configurações</router-link>
-         <router-link to="/sair" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Sair</router-link>
+         <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
+         <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Configurações</router-link>
+         <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Sair</router-link>
        </div>
       </div>
     </div>

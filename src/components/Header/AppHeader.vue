@@ -43,14 +43,14 @@
       <div v-show="showSidebar" class="lg:hidden fixed inset-0 bg-white bg-opacity-50" @click="toggleSidebar"></div>
     </transition>
     <transition name="slide">
-      <div v-show="showSidebar" class="lg:hidden fixed inset-y-0 left-0 mt-6 bg-gray-800 text-white p-4 transform translate-x-0">
+      <div v-show="showSidebar" class="lg:hidden fixed inset-y-0 left-0 mt-6 bg-gray-800 text-white p-4 transform translate-x-0 w-64 z-50">
         <button @click="toggleSidebar" class="text-white lg:hidden absolute top-4 right-4">
           <i class="fas fa-times"></i>
         </button>
-        <div class="submenu">
-          <p>Home</p>
-          <p>GitHub</p>
-          <p>Perfil</p>
+        <div class="submenu mt-4">
+          <router-link to="/home" class="block text-white hover:bg-green-600 px-4 py-2 rounded">Home</router-link>
+          <router-link to="/github" class="block text-white hover:bg-green-600 px-4 py-2 rounded">GitHub</router-link>
+          <router-link to="/perfil" class="block text-white hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
         </div>
       </div>
     </transition>
@@ -103,9 +103,5 @@ export default {
   }
   .slide-enter, .slide-leave-to {
     transform: translateX(-100%);
-  }
-
-  .submenu {
-    width: 200px;
   }
 </style>

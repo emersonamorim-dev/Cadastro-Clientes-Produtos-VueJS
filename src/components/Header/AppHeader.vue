@@ -42,9 +42,6 @@
             class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Cadastrar
             Produto</router-link>
           <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
-          <router-link to="/configuracoes"
-            class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Configurações</router-link>
-          <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Sair</router-link>
         </div>
       </div>
     </div>

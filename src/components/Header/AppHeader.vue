@@ -30,11 +30,14 @@
           <i class="fas fa-user"></i>
         </button>
         <!-- Submenu do Perfil -->
-        <div v-show="showProfile" class="absolute top-full right-0 mt-2 bg-white p-2 rounded shadow-md text-green-500">
-          <p>Perfil</p>
-          <p>Configurações</p>
-          <p>Sair</p>
-        </div>
+        <div v-show="showProfile" class="absolute top-full right-0 mt-2 bg-white p-2 rounded shadow-md flex flex-wrap">
+         <router-link to="https://cadastro-clientes-produtos-vue-js.vercel.app//associacao" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2">Associar Produto</router-link>
+         <router-link to="https://cadastro-clientes-produtos-vue-js.vercel.app/clientes/cadastro" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2">Cadastrar Cliente</router-link>
+         <router-link to="https://cadastro-clientes-produtos-vue-js.vercel.app/produtos/cadastro" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2">Cadastrar Produto</router-link>
+         <router-link to="/perfil" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
+         <router-link to="/configuracoes" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Configurações</router-link>
+         <router-link to="/sair" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Sair</router-link>
+       </div>
       </div>
     </div>
 
@@ -49,8 +52,8 @@
         </button>
         <div class="submenu mt-4">
           <router-link to="/home" class="block text-white hover:bg-green-600 px-4 py-2 rounded">Home</router-link>
-          <router-link to="/github" class="block text-white hover:bg-green-600 px-4 py-2 rounded">GitHub</router-link>
-          <router-link to="/perfil" class="block text-white hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
+          <router-link to="https://github.com/emersonamorim-dev" class="block text-white hover:bg-green-600 px-4 py-2 rounded">GitHub</router-link>
+          <router-link to="https://www.linkedin.com/in/emerson-amorim-dev/" class="block text-white hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
         </div>
       </div>
     </transition>

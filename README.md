@@ -1,7 +1,14 @@
 # Cadastro-Clientes-Produtos-VueJS - Teste DataStone 🚀 🔄 🌐
 
 ### Visão Geral
-Codificação de projeto para uma aplicação Vue.js para um Teste na DataStone destinada a gerenciar clientes, produtos e a associação entre eles. A aplicação é desenvolvida com base nos princípios da arquitetura Vue.js, proporcionando uma experiência de usuário intuitiva e eficiente.
+Codificação de projeto para uma aplicação Vue.js para um Teste Técnico na DataStone destinada a gerenciar clientes, produtos e a associação entre eles. A aplicação é desenvolvida com base nos princípios da arquitetura Vue.js, proporcionando uma experiência de usuário intuitiva e eficiente.
+
+### Tecnologias Usadas:
+
+- VUEJS
+- Node
+- Javascript
+- TailwindCSS
 
 ### Estrutura do Projeto
 O projeto é estruturado de maneira organizada, seguindo as melhores práticas recomendadas pela comunidade Vue.js. A estrutura de pastas é clara e intuitiva, facilitando a navegação e manutenção do código-fonte.

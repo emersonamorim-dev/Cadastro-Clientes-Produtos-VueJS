@@ -10,6 +10,12 @@ Codificação de projeto para uma aplicação Vue.js para um Teste Técnico na D
 - Javascript
 - TailwindCSS
 
+### Comandos para rodar o projeto:
+
+- npm install
+- npm install tailwindcss
+- npm run serve
+
 ### Estrutura do Projeto
 O projeto é estruturado de maneira organizada, seguindo as melhores práticas recomendadas pela comunidade Vue.js. A estrutura de pastas é clara e intuitiva, facilitando a navegação e manutenção do código-fonte.
 

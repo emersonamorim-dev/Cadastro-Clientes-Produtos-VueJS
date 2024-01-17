@@ -1,4 +1,4 @@
-# Cadastro-Clientes-Produtos-vue - Teste DataStone 🚀 🔄 🌐
+# Cadastro-Clientes-Produtos-VueJS - Teste DataStone 🚀 🔄 🌐
 
 ### Visão Geral
 Codificação de projeto para uma aplicação Vue.js para um Teste na DataStone destinada a gerenciar clientes, produtos e a associação entre eles. A aplicação é desenvolvida com base nos princípios da arquitetura Vue.js, proporcionando uma experiência de usuário intuitiva e eficiente.
@@ -17,7 +17,7 @@ O projeto é estruturado de maneira organizada, seguindo as melhores práticas r
 ### Cadastro de Cliente
 Este é um componente Vue.js responsável por fornecer uma interface para cadastro, edição, ativação/desativação e listagem de clientes. Abaixo, você encontrará uma descrição dos métodos, orientação a objetos, SOLID e design patterns utilizados no código.
 
-- Métodos
+1. Métodos
 validarCPF(cpf: string): boolean
 Método utilizado para validar o formato do CPF do cliente, retornando true se válido e false caso contrário.
 
@@ -55,7 +55,7 @@ O código segue os princípios da orientação a objetos, especialmente no que d
 ### Cadastro de Produto
 Este é um componente Vue.js responsável por fornecer uma interface para cadastro, edição, ativação/desativação e listagem de produtos. Abaixo, você encontrará uma descrição dos métodos, orientação a objetos, SOLID e design patterns utilizados no código.
 
-- Métodos
+1. Métodos
 carregarProdutos(): void
 Método responsável por carregar a lista de produtos ao criar o componente. Caso não haja produtos armazenados localmente, faz uma chamada ao serviço mock para obtê-los.
 
@@ -84,7 +84,7 @@ O código segue os princípios da orientação a objetos, especialmente no que d
 ### Associação de Produtos
 Este é um componente Vue.js que permite associar produtos a clientes. Abaixo estão descritos os métodos, a orientação a objetos, SOLID e design patterns utilizados no código.
 
-- Métodos
+1. Métodos
 carregarClientes(): Promise<void>
 Carrega a lista de clientes ao criar o componente. Se houver clientes armazenados localmente, seleciona o primeiro cliente e carrega os produtos disponíveis.
 
@@ -117,11 +117,10 @@ O SOLID é considerado no código, especialmente nos princípios de responsabili
 Não há evidências de design patterns específicos neste código, mas os conceitos SOLID e a orientação a objetos são aplicados de maneira clara e organizada.
 
 
-
 ### Mock Service
 Este é um serviço simulado (MockService) que fornece métodos para manipular dados fictícios de clientes e produtos. Abaixo estão descritos os métodos, a orientação a objetos, SOLID e design patterns utilizados no código.
 
-- Métodos
+1. Métodos
 Métodos relacionados a Clientes
 salvarCliente(cliente: Object): Promise<Object>
 Cria e salva um novo cliente com um ID gerado aleatoriamente.

@@ -6,18 +6,18 @@ Codificação de projeto para uma aplicação Vue.js para um Teste na DataStone 
 ### Estrutura do Projeto
 O projeto é estruturado de maneira organizada, seguindo as melhores práticas recomendadas pela comunidade Vue.js. A estrutura de pastas é clara e intuitiva, facilitando a navegação e manutenção do código-fonte.
 
-/src/components: Contém os componentes Vue.js que compõem a interface da aplicação.
+1 - /src/components: Contém os componentes Vue.js que compõem a interface da aplicação.
 
-/src/service: Armazena o serviço de simulação (MockService) utilizado para interação com clientes e produtos.
+2 - /src/service: Armazena o serviço de simulação (MockService) utilizado para interação com clientes e produtos.
 
-/src/views: Contém as visualizações principais da aplicação, onde os componentes são utilizados e organizados para formar as páginas.
+3 - /src/views: Contém as visualizações principais da aplicação, onde os componentes são utilizados e organizados para formar as páginas.
 
-/src/App.vue e /src/main.js: Arquivos de configuração e inicialização da aplicação Vue.js.
+4 - /src/App.vue e /src/main.js: Arquivos de configuração e inicialização da aplicação Vue.js.
 
 ### Cadastro de Cliente
 Este é um componente Vue.js responsável por fornecer uma interface para cadastro, edição, ativação/desativação e listagem de clientes. Abaixo, você encontrará uma descrição dos métodos, orientação a objetos, SOLID e design patterns utilizados no código.
 
-1. Métodos
+##### Métodos
 validarCPF(cpf: string): boolean
 Método utilizado para validar o formato do CPF do cliente, retornando true se válido e false caso contrário.
 
@@ -55,7 +55,7 @@ O código segue os princípios da orientação a objetos, especialmente no que d
 ### Cadastro de Produto
 Este é um componente Vue.js responsável por fornecer uma interface para cadastro, edição, ativação/desativação e listagem de produtos. Abaixo, você encontrará uma descrição dos métodos, orientação a objetos, SOLID e design patterns utilizados no código.
 
-1. Métodos
+##### Métodos
 carregarProdutos(): void
 Método responsável por carregar a lista de produtos ao criar o componente. Caso não haja produtos armazenados localmente, faz uma chamada ao serviço mock para obtê-los.
 
@@ -84,7 +84,7 @@ O código segue os princípios da orientação a objetos, especialmente no que d
 ### Associação de Produtos
 Este é um componente Vue.js que permite associar produtos a clientes. Abaixo estão descritos os métodos, a orientação a objetos, SOLID e design patterns utilizados no código.
 
-1. Métodos
+##### Métodos
 carregarClientes(): Promise<void>
 Carrega a lista de clientes ao criar o componente. Se houver clientes armazenados localmente, seleciona o primeiro cliente e carrega os produtos disponíveis.
 
@@ -120,7 +120,7 @@ Não há evidências de design patterns específicos neste código, mas os conce
 ### Mock Service
 Este é um serviço simulado (MockService) que fornece métodos para manipular dados fictícios de clientes e produtos. Abaixo estão descritos os métodos, a orientação a objetos, SOLID e design patterns utilizados no código.
 
-1. Métodos
+##### Métodos
 Métodos relacionados a Clientes
 salvarCliente(cliente: Object): Promise<Object>
 Cria e salva um novo cliente com um ID gerado aleatoriamente.
@@ -185,5 +185,5 @@ Não há evidências claras de design patterns específicos neste código, mas a
 ### Conclusão
 O projeto Vue.js reflete um compromisso com as melhores práticas de desenvolvimento, proporcionando uma base sólida para a construção de aplicativos web escaláveis e de alta qualidade. A arquitetura, a organização do código e a aplicação de conceitos como orientação a objetos e princípios SOLID demonstram a busca pela excelência no desenvolvimento de software.
 
-# Autor:
+### Autor:
 Emerson Amorim

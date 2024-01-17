@@ -48,9 +48,9 @@
           <i class="fas fa-times"></i>
         </button>
         <div class="submenu">
-          <p>Home</p>
-          <p>GitHub</p>
-          <p>Perfil</p>
+          <router-link to="/home">Home</router-link>
+          <router-link to="https://github.com/emersonamorim-dev">GitHub</router-link>
+          <router-link to="https://www.linkedin.com/in/emerson-amorim-dev/">Perfil</router-link>
         </div>
       </div>
     </transition>

@@ -32,19 +32,19 @@
         </button>
         <!-- Submenu do Perfil -->
         <div v-show="showProfile" class="absolute top-full right-0 mt-2 bg-white p-4 rounded shadow-md flex flex-wrap">
-          <router-link to="https://cadastro-clientes-produtos-vue-js.vercel.app//associacao"
+          <router-link to="/associacao"
             class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Associar
             Produto</router-link>
-          <router-link to="https://cadastro-clientes-produtos-vue-js.vercel.app/clientes/cadastro"
+          <router-link to="/clientes/cadastro"
             class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Cadastrar
             Cliente</router-link>
-          <router-link to="https://cadastro-clientes-produtos-vue-js.vercel.app/produtos/cadastro"
+          <router-link to="/produtos/cadastro"
             class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Cadastrar
             Produto</router-link>
-          <router-link to="/perfil" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
+          <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
           <router-link to="/configuracoes"
             class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Configurações</router-link>
-          <router-link to="/sair" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Sair</router-link>
+          <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Sair</router-link>
         </div>
       </div>
     </div>

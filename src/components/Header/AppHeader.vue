@@ -49,8 +49,8 @@
         </button>
         <div class="submenu">
           <router-link to="/home">Home</router-link>
-          <router-link to="https://github.com/emersonamorim-dev">GitHub</router-link>
-          <router-link to="https://www.linkedin.com/in/emerson-amorim-dev/">Perfil</router-link>
+          <router-link to="/github">GitHub</router-link>
+          <router-link to="/perfil">Perfil</router-link>
         </div>
       </div>
     </transition>

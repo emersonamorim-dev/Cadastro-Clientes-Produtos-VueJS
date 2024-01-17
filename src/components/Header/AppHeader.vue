@@ -25,25 +25,25 @@
         </div>
       </div>
 
-      <!-- Ícone do Perfil -->
-      <div class="relative">
-        <button @click="toggleProfile">
-          <i class="fas fa-user"></i>
-        </button>
-        <!-- Submenu do Perfil -->
-        <div v-show="showProfile" class="absolute top-full right-0 mt-2 bg-white p-4 rounded shadow-md flex flex-wrap">
-          <router-link to="/associacao"
-            class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Associar
-            Produto</router-link>
-          <router-link to="/clientes/cadastro"
-            class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Cadastrar
-            Cliente</router-link>
-          <router-link to="/produtos/cadastro"
-            class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Cadastrar
-            Produto</router-link>
-          <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
-        </div>
-      </div>
+     <!-- Ícone do Perfil -->
+     <div class="relative">
+       <button @click="toggleProfile">
+         <i class="fas fa-user"></i>
+       </button>
+       <!-- Submenu do Perfil -->
+       <div v-show="showProfile" class="absolute top-full right-0 mt-2 bg-white p-2 rounded shadow-md flex flex-wrap">
+         <router-link to="/associacao"
+           class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Associar
+           Produto</router-link>
+         <router-link to="/clientes/cadastro"
+           class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap">Cadastrar
+           Cliente</router-link>
+         <router-link to="/produtos/cadastro"
+           class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded mr-2 mb-2 whitespace-nowrap" exact>Cadastrar
+           Produto</router-link>
+         <router-link to="/" class="block text-green-500 hover:bg-green-600 px-4 py-2 rounded">Perfil</router-link>
+       </div>
+     </div>
     </div>
 
     <!-- Sidebar -->

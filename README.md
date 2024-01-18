@@ -156,22 +156,16 @@ Retorna uma cópia da lista de clientes.
 #### Métodos relacionados a Produtos
 - salvarProduto(produto: Object): Promise<Object>
 Cria e salva um novo produto com um ID gerado aleatoriamente.
-
 - listarProdutos(): Promise<Array<Object>>
 Retorna uma cópia da lista de produtos.
-
 - obterProdutoPorId(produtoId: number): Promise<Object>
 Obtém um produto específico com base no ID.
-
 - editarProduto(produtoId: number, novoProduto: Object): Promise<Object>
 Edita um produto existente com base no ID.
-
 - atualizarProduto(produtoId: number, novosDadosProduto: Object): Promise<Object>
 Atualiza um produto existente com base no ID, modificando apenas os campos fornecidos em novosDadosProduto.
-
 - ativarDesativarProduto(produtoId: number): Promise<Object>
 Ativa ou desativa um produto existente com base no ID.
-
 - obterProdutos(): Promise<Array<Object>>
 Retorna uma cópia da lista de produtos.
 

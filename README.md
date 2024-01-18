@@ -161,3 +161,46 @@ Desativa um cliente existente com base no ID.
 - obterClientes(): Promise<Array<Object>>
 Retorna uma cópia da lista de clientes.
 
+### Métodos relacionados a Produtos
+
+- salvarProduto(produto: Object): Promise<Object>
+Cria e salva um novo produto com um ID gerado aleatoriamente.
+- listarProdutos(): Promise<Array<Object>>
+Retorna uma cópia da lista de produtos.
+- obterProdutoPorId(produtoId: number): Promise<Object>
+Obtém um produto específico com base no ID.
+- editarProduto(produtoId: number, novoProduto: Object): Promise<Object>
+Edita um produto existente com base no ID.
+- atualizarProduto(produtoId: number, novosDadosProduto: Object): Promise<Object>
+Atualiza um produto existente com base no ID, modificando apenas os campos fornecidos em novosDadosProduto.
+- ativarDesativarProduto(produtoId: number): Promise<Object>
+Ativa ou desativa um produto existente com base no ID.
+- obterProdutos(): Promise<Array<Object>>
+Retorna uma cópia da lista de produtos.
+
+### Métodos relacionados à Associação de Produtos e Clientes
+- associarProdutoAoCliente(clienteId: number, produtoId: number): Promise<boolean>
+Associa um produto a um cliente, verificando se o produto já está associado.
+
+- desassociarProdutoDoCliente(clienteId: number, produtoId: number): Promise<boolean>
+Desassocia um produto de um cliente.
+
+- obterProdutosAssociados(clienteId: number): Promise<Array<Object>
+Obtém os produtos associados a um cliente.
+
+- obterProdutosNaoAssociados(clienteId: number): Promise<Array<Object>
+Obtém os produtos que não estão associados a um cliente.
+
+### Orientação a Objetos, SOLID e Design Patterns
+O código segue os princípios da orientação a objetos, com a criação de uma classe MockService que encapsula a lógica de manipulação de dados de clientes e produtos.
+
+Quanto aos princípios SOLID, a classe MockService apresenta métodos específicos e responsabilidades únicas para cada operação. Além disso, é possível destacar o uso de injeção de dependência nos métodos, facilitando a manutenção e a extensibilidade.
+
+Não há evidências claras de design patterns específicos neste código, mas a estrutura adotada reflete conceitos sólidos da programação orientada a objetos.
+
+### Conclusão
+O projeto Vue.js reflete um compromisso com as melhores práticas de desenvolvimento, proporcionando uma base sólida para a construção de aplicativos web escaláveis e de alta qualidade. A arquitetura, a organização do código e a aplicação de conceitos como orientação a objetos e princípios SOLID demonstram a busca pela excelência no desenvolvimento de software.
+
+### Autor:
+
+Emerson Amorim [@emerson-amorim-dev](https://www.linkedin.com/in/emerson-amorim-dev/)

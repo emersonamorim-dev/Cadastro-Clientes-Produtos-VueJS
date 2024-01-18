@@ -12,9 +12,9 @@ Codificação de projeto para uma aplicação Vue.js para um Teste Técnico na D
 
 ### Comandos para rodar o projeto:
 
-- npm install
-- npm install tailwindcss
-- npm run serve
+``` npm install ```
+``` npm install tailwindcss ```
+``` npm run serve ```
 
 ### Estrutura do Projeto
 O projeto é estruturado de maneira organizada, seguindo as melhores práticas recomendadas pela comunidade Vue.js. A estrutura de pastas é clara e intuitiva, facilitando a navegação e manutenção do código-fonte.
@@ -30,7 +30,7 @@ O projeto é estruturado de maneira organizada, seguindo as melhores práticas r
 ### Cadastro de Cliente
 Este é um componente Vue.js responsável por fornecer uma interface para cadastro, edição, ativação/desativação e listagem de clientes. Abaixo, você encontrará uma descrição dos métodos, orientação a objetos, SOLID e design patterns utilizados no código.
 
-##### Métodos
+### Métodos
 - validarCPF(cpf: string): boolean
 Método utilizado para validar o formato do CPF do cliente, retornando true se válido e false caso contrário.
 

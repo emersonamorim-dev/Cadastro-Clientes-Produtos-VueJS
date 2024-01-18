@@ -38,7 +38,6 @@
       </template>
     </ul>
 
-    <!-- Adicionar esta parte para mostrar a mensagem de sucesso e o produto associado -->
     <div v-if="produtoAssociado">
       <p>Produto associado com sucesso: {{ produtoAssociado.nome }}</p>
     </div>
@@ -143,7 +142,7 @@ export default {
         await this.carregarProdutosAssociados();
         this.salvarLocalStorage();
 
-        // Exibi produto add lista de produtos associados
+        // Exibe produto add lista de produtos associados
         this.produtoAssociado = produtoEncontrado;
         this.produtosAssociados.push(produtoEncontrado);
       } catch (error) {

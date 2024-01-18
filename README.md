@@ -13,7 +13,9 @@ Codificação de projeto para uma aplicação Vue.js para um Teste Técnico na D
 ### Comandos para rodar o projeto:
 
 ``` npm install ```
+
 ``` npm install tailwindcss ```
+
 ``` npm run serve ```
 
 ### Estrutura do Projeto

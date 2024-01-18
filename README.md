@@ -153,7 +153,7 @@ Desativa um cliente existente com base no ID.
 - obterClientes(): Promise<Array<Object>>
 Retorna uma cópia da lista de clientes.
 
-Métodos relacionados a Produtos
+#### Métodos relacionados a Produtos
 - salvarProduto(produto: Object): Promise<Object>
 Cria e salva um novo produto com um ID gerado aleatoriamente.
 

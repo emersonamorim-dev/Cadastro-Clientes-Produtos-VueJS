@@ -68,7 +68,7 @@ O código segue os princípios da orientação a objetos, especialmente no que d
 ### Cadastro de Produto
 Este é um componente Vue.js responsável por fornecer uma interface para cadastro, edição, ativação/desativação e listagem de produtos. Abaixo, você encontrará uma descrição dos métodos, orientação a objetos, SOLID e design patterns utilizados no código.
 
-##### Métodos
+### Métodos
 - carregarProdutos(): void
 Método responsável por carregar a lista de produtos ao criar o componente. Caso não haja produtos armazenados localmente, faz uma chamada ao serviço mock para obtê-los.
 
@@ -97,7 +97,7 @@ O código segue os princípios da orientação a objetos, especialmente no que d
 ### Associação de Produtos
 Este é um componente Vue.js que permite associar produtos a clientes. Abaixo estão descritos os métodos, a orientação a objetos, SOLID e design patterns utilizados no código.
 
-##### Métodos
+### Métodos
 - carregarClientes(): Promise<void>
 Carrega a lista de clientes ao criar o componente. Se houver clientes armazenados localmente, seleciona o primeiro cliente e carrega os produtos disponíveis.
 
@@ -133,7 +133,7 @@ Não há evidências de design patterns específicos neste código, mas os conce
 ### Mock Service
 Este é um serviço simulado (MockService) que fornece métodos para manipular dados fictícios de clientes e produtos. Abaixo estão descritos os métodos, a orientação a objetos, SOLID e design patterns utilizados no código.
 
-##### Métodos
+### Métodos
 Métodos relacionados a Clientes
 - salvarCliente(cliente: Object): Promise<Object>
 Cria e salva um novo cliente com um ID gerado aleatoriamente.
@@ -153,7 +153,7 @@ Desativa um cliente existente com base no ID.
 - obterClientes(): Promise<Array<Object>>
 Retorna uma cópia da lista de clientes.
 
-#### Métodos relacionados a Produtos
+### Métodos relacionados a Produtos
 - salvarProduto(produto: Object): Promise<Object>
 Cria e salva um novo produto com um ID gerado aleatoriamente.
 - listarProdutos(): Promise<Array<Object>>
@@ -169,17 +169,17 @@ Ativa ou desativa um produto existente com base no ID.
 - obterProdutos(): Promise<Array<Object>>
 Retorna uma cópia da lista de produtos.
 
-Métodos relacionados à Associação de Produtos e Clientes
+### Métodos relacionados à Associação de Produtos e Clientes
 - associarProdutoAoCliente(clienteId: number, produtoId: number): Promise<boolean>
 Associa um produto a um cliente, verificando se o produto já está associado.
 
 - desassociarProdutoDoCliente(clienteId: number, produtoId: number): Promise<boolean>
 Desassocia um produto de um cliente.
 
-- obterProdutosAssociados(clienteId: number): Promise<Array<Object>>
+- obterProdutosAssociados(clienteId: number): Promise<Array<Object>
 Obtém os produtos associados a um cliente.
 
-- obterProdutosNaoAssociados(clienteId: number): Promise<Array<Object>>
+- obterProdutosNaoAssociados(clienteId: number): Promise<Array<Object>
 Obtém os produtos que não estão associados a um cliente.
 
 ### Orientação a Objetos, SOLID e Design Patterns

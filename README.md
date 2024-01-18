@@ -21,9 +21,9 @@ O projeto é estruturado de maneira organizada, seguindo as melhores práticas r
 
 1 - /src/components: Contém os componentes Vue.js que compõem a interface da aplicação.
 
-2 - /src/service: Armazena o serviço de simulação (MockService) utilizado para interação com clientes e produtos.
+2 - /src/pages: Contém os componentes Vue.js que implemente Produtos e Associação.
 
-3 - /src/views: Contém as visualizações principais da aplicação, onde os componentes são utilizados e organizados para formar as páginas.
+3 - /src/service: Armazena o serviço de simulação (MockService) utilizado para interação com clientes e produtos.
 
 4 - /src/App.vue e /src/main.js: Arquivos de configuração e inicialização da aplicação Vue.js.
 

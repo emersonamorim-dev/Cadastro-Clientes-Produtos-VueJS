@@ -201,4 +201,5 @@ Não há evidências claras de design patterns específicos neste código, mas a
 O projeto Vue.js reflete um compromisso com as melhores práticas de desenvolvimento, proporcionando uma base sólida para a construção de aplicativos web escaláveis e de alta qualidade. A arquitetura, a organização do código e a aplicação de conceitos como orientação a objetos e princípios SOLID demonstram a busca pela excelência no desenvolvimento de software.
 
 ### Autor:
-Emerson Amorim
+
+- Emerson Amorim [@emerson-amorim-dev](https://www.linkedin.com/in/emerson-amorim-dev/)
